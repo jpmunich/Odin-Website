@@ -1,20 +1,26 @@
-.header
-{
-    margin-left: 96px;
-}
-.top-fourth
-{
+.headcontainer{
     display: flex;
-    margin-left: 96px;
-    margin-top: 72px;
-    height: 400px;
-    width: 400px;
-    
 }
 
-.intro-container
-{
-    height: 300x;
-    width: 300px;
-    
+.headcontainer div{
+    height: 50px;
+    width: auto;
+    background-color: rebeccapurple;
+    flex: 1;
 }
+
+.headlinks{
+    display: flex;
+    background-color: red;
+}
+
+.headlinks .headlinkone{
+    background-color: red;
+}
+
+.body{
+    margin-left: 96px;
+    margin-right: 96px;
+}
+
+
