@@ -1,26 +1,72 @@
-.headcontainer{
+.headercontainer{
+    display: flex;
+}
+.headercontainer div{
+    padding: 10px;
+    border: 2px rebeccapurple solid;
+    flex: auto;
+}
+
+#header{
+    flex: 2.5;
+}
+
+.headerlinkscontainer{
     display: flex;
 }
 
-.headcontainer div{
-    height: 50px;
+.headerlinkscontainer div{
+    padding: 2px;
+    border: 2px rebeccapurple solid;
+    justify-content: middle;
+}
+
+.onefourthscontainer{
+    display: flex;
+}
+
+.onefourthscontainer div{
+    padding: 10px;
+    padding-top: 80px;
+    border: 2px rebeccapurple solid;
+}
+
+.onefourthstext{
+    width: 400px;
+    flex: auto;
+}
+
+.onefourthsh2{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 48px;
+}
+
+.onefourthsp{
+    margin-top: 2px;
+    margin-bottom: 2px;
+    font-size: 20px;
+}
+
+.fishtacobutton{
+    margin-top: 4px;
+    font-size: 20px;
+}
+.onefourthsimage{
+    height: auto;
     width: auto;
-    background-color: rebeccapurple;
-    flex: 1;
 }
 
-.headlinks{
-    display: flex;
-    background-color: red;
+#fishtacoimg{
+    width: auto;
+    height: 200px;
 }
 
-.headlinks .headlinkone{
-    background-color: red;
+.onefourthsimagetwo{
+    height: auto;
 }
 
-.body{
-    margin-left: 96px;
-    margin-right: 96px;
+#fishtacoimgtwo{
+    height: 200px;
 }
-
 
