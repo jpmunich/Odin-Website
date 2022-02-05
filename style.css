@@ -2,13 +2,19 @@
     display: flex;
 }
 .headercontainer div{
+    background-color: #1F2937;
     padding: 10px;
-    border: 2px rebeccapurple solid;
     flex: auto;
+    color: #F9FAF8;
+}
+
+.headertop{
+    flex: 2.5;
 }
 
 #header{
-    flex: 2.5;
+    margin-left: 25px;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .headerlinkscontainer{
@@ -17,8 +23,9 @@
 
 .headerlinkscontainer div{
     padding: 2px;
-    border: 2px rebeccapurple solid;
-    justify-content: middle;
+    border: 2px whitesmoke solid;
+    text-align: center;
+    margin-right: 25px;
 }
 
 .onefourthscontainer{
@@ -26,9 +33,10 @@
 }
 
 .onefourthscontainer div{
+    background-color: #1F2937;
     padding: 10px;
-    padding-top: 80px;
-    border: 2px rebeccapurple solid;
+    padding-top: 65px;
+    padding-bottom: 65px;
 }
 
 .onefourthstext{
@@ -39,34 +47,177 @@
 .onefourthsh2{
     margin-top: 2px;
     margin-bottom: 2px;
-    font-size: 48px;
+    font-size: 44px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin-left: 25px;
+    font-family:'Courier New', Courier, monospace;
+    padding-bottom: 5px;
 }
 
 .onefourthsp{
     margin-top: 2px;
     margin-bottom: 2px;
-    font-size: 20px;
+    margin-left: 25px;
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family:'Courier New', Courier, monospace;
+    padding-bottom: 5px;
 }
 
 .fishtacobutton{
-    margin-top: 4px;
+    margin-top: 8px;
     font-size: 20px;
-}
-.onefourthsimage{
-    height: auto;
-    width: auto;
+    width: 225px;
+    height: 75px;
+    font-weight: bold;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    border-radius: 7.5px;
+    margin-left: 25px;
+    border: 4px #F9FAF8 solid;
 }
 
 #fishtacoimg{
     width: auto;
+    height: 400px;
+    border-radius: 25px;
+    border: 7px #2c63bb solid;
+    margin-right: 25px;
+}
+
+.twofourthsheader{
+    text-align: center;
+    color: #1F2937;
+    font-size: 36px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.twofourthsimagescontainer{
+  display: flex;
+}
+
+.twofourthsimagescontainer div{
+    flex: auto;
+    text-align: center;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.twofourthssubtextcontainer{
+    display: flex;
+    padding-bottom: 50px;
+}
+
+.twofourthssubtextcontainer div{
+    flex: auto;
+    text-align: center;
+    width: 225px;
+    border-radius: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 7.5px hsl(217, 69%, 26%) solid;
+    margin-bottom: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #E5E7EB;
+    font-weight: 700;
+}
+
+#natureimg{
+    border-radius: 50px;
+    border: 10px #3882F6 solid;
+    height: 225px;
+    width: 225px;
+}
+
+#nemoimg{
+    border-radius: 50px;
+    border: 10px #3882F6 solid;
+    height: 225px;
+    width: 225px;
+}
+
+#subwayimg{
+    border-radius: 50px;
+    border: 10px #3882F6 solid;
+    height: 225px;
+    width: 225px;
+}
+
+#nofryingimg{
+    border-radius: 50px;
+    border: 10px #3882F6 solid;
+    height: 225px;
+    width: 225px;
+}
+.quotecontainer{
+    display: flex;
+}
+
+.quotecontainer div{
+    flex: auto;
+    background-color: #c2c6ce;
+    padding-top: 50px;
+}
+
+.quoteemptyone{
+    width: 500px;
+}
+
+.quoteemptytwo{
+    width: 500px;
+}
+.quoteP{
+    text-align: center;
+    font-size: 22px;
+    font-weight: lighter;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.ryanreynoldssign{
+    text-align: end;
+    font-size: 18px;
+    padding-right: 10px;
+    font-weight: bolder;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.bottomfourthcontainer{
+    display: flex;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.bottomfourthbutton{
     height: 200px;
+    width: 600px;
+    border: 10px #114179 solid;
+    border-radius: 25px;
+    background-color: #3882F6;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+    color: #E5E7EB;
+    font-size: 40px;
 }
 
-.onefourthsimagetwo{
-    height: auto;
+.fishbuttondiv{
+    text-align: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    background-color: #c0d1ee;
 }
 
-#fishtacoimgtwo{
-    height: 200px;
+.footer{
+    background-color: #1F2937;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    font-size: 28px;
 }
-
+.footertext{
+    font-family: 'Courier New', Courier, monospace;
+    color: #E5E7EB;
+    text-align: center;
+    font-weight: 800;
+}
